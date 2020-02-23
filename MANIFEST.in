@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include performance_contracting *.css
+recursive-include performance_contracting *.csv
+recursive-include performance_contracting *.html
+recursive-include performance_contracting *.ico
+recursive-include performance_contracting *.js
+recursive-include performance_contracting *.json
+recursive-include performance_contracting *.md
+recursive-include performance_contracting *.png
+recursive-include performance_contracting *.py
+recursive-include performance_contracting *.svg
+recursive-include performance_contracting *.txt
+recursive-exclude performance_contracting *.pyc
