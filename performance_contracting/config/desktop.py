@@ -7,7 +7,6 @@ def get_data():
 		"Performance Contracting":{
 			"color": "grey",
 			"icon": "octicon octicon-dashboard",
-			"type": "module",
-			"label": _("Performance Contracting")
+			"type": "module"
 		}
 	}
