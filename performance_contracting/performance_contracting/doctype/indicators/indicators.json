@@ -1,0 +1,101 @@
+{
+ "autoname": "IND.#####",
+ "creation": "2020-02-09 23:17:15.769154",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "description",
+  "uom",
+  "verified_objective_evidence",
+  "amended_from",
+  "category"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "uom",
+   "fieldtype": "Data",
+   "label": "UOM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "verified_objective_evidence",
+   "fieldtype": "Data",
+   "label": "Verified Objective Evidence"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Indicators",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Activity Categories",
+   "reqd": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2020-02-26 19:48:01.106790",
+ "modified_by": "Administrator",
+ "module": "Performance Contracting",
+ "name": "Indicators",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Performance Contract Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "search_fields": "name1",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "name1",
+ "track_changes": 1
+}
